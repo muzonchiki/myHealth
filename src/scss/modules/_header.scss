@@ -1,0 +1,53 @@
+.header {
+    @include flex(center, center, wrap, row);
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: $color1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    text-align: center;
+    margin-right: 200px;
+    &__up {
+        font-size: 20px;
+    }
+    &__down {
+        font-size: 10px;
+    }
+}
+
+.nav__list {
+    @include flex(center, center, wrap, row);
+    width: 500px;
+    font-family: 'roboto-regular';
+}
+
+.btn-header {
+    width: 200px;
+    border: 2px solid rgba(255, 255, 255, 0.3) ;
+    border-radius: 40px; 
+    padding: 20px 35px 20px 35px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 60px;
+    font-family: 'roboto-regular';
+    &:hover {
+        background: #5489c3;
+        width: 225px;
+        padding: 20px 60px 20px 35px;
+        margin-left: 35px;
+        font-family: 'roboto-bold';
+    }
+}
+
+.nav__list-item {
+    margin-left: 2.96vw;
+    &:first-child {
+        margin-left: 0;
+    }
+    &:hover {
+        color: #bcbeba;
+    }
+}

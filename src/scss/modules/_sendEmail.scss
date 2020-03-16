@@ -1,0 +1,60 @@
+.sendEmail {
+    width: 100%;
+    background: $color7;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    @include flex(flex-start, center, nowrap, column);
+}
+
+.sendEmail__title {
+    font-family: 'roboto-bold';
+    font-size: 36px;
+    line-height: 54px;
+    color: $color2;
+}
+
+.sendEmail__text {
+    margin-top: 70px;
+    width: 640px;
+    text-align: center;
+    font-family: 'roboto-medium';
+    font-size: 24px;
+    line-height: 36px;
+    color: $color2;
+}
+
+.sendEmail-form {
+    margin-top: 60px;
+}
+
+.sendEmail-form__input {
+    font-family: 'roboto-light';
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 18px;
+    width: 360px;
+    border: 1px solid #4f699b;
+    border-radius: 50px;
+    outline: none;
+    font-size: 18px;
+    color: #344565;
+    &::placeholder {
+        font-size: 14px;
+        color: #a8b2bf;
+    }
+}
+
+.sendEmail-form__button {
+    width: 160px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+    color: $color1;
+    background: #e70067;
+    border: 1px solid #e70067;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 40px;
+    outline: none;
+    cursor: pointer;
+}

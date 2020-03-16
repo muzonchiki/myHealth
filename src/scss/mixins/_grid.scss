@@ -1,0 +1,13 @@
+@mixin flex($jc:flex-start, $ai:flex-start, $wrap: wrap, $fd: column) {
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-wrap: $wrap
+}
+
+@mixin list-unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

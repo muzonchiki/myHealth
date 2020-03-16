@@ -1,0 +1,62 @@
+.opportunities {
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 200px;
+    background: $color6;
+}
+
+.opportunities__title {
+    font-size: 36px;
+    line-height: 54px;
+    font-family: 'roboto-medium';
+    color: $color3;
+    text-align: center;
+}
+
+.opportunities__content {
+    @include flex(center, flex-start, nowrap, row);
+}
+
+.opportunities__list {
+    @include flex(flex-start, flex-start, nowrap, column);
+}
+
+.opportunities-item {
+    margin-top: 60px;
+    @include flex(flex-start, flex-start, nowrap, row);
+}
+
+.opportunities-item__num {
+    color: $color4;
+    line-height: 54px;
+    font-size: 60px;
+    font-family: 'roboto-bold';
+}
+
+.opportunities-item__content {
+    width: 500px;
+    margin-left: 45px;
+    color: $color2;
+}
+
+.opportunities-item__content-title {
+    font-weight: 'roboto-medium';
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.opportunities-item__content-text {
+    font-family: 'roboto-regular';
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.opportunities__img {
+    height: 600px;
+    width: 600px;
+    background: url('../../img/phones.png') center center no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}

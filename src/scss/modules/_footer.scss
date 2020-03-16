@@ -1,0 +1,37 @@
+.footer {
+    width: 100%;
+    background: #39649d;
+    @include flex(center, center, nowrap, row);
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.footer__logo {
+    width: 200px;
+    height: 40px;
+    background: url('../../img/logo-gray.png') center center no-repeat;
+    background-size: cover;
+}
+
+.footer__text {
+    font-family: 'roboto-light';
+    font-size: 14px;
+    line-height: 21px;
+    color: $color1;
+    @include flex(flex-start, flex-start, nowrap, row);
+    &--red {
+        color: #e70067;
+        margin-left: 5px;
+    }
+    width: 175px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.footer__phone {
+    color: $color1;
+    font-family: 'roboto-medium';
+    font-size: 16px;
+    line-height: 24px;
+    width: 105px;
+}
